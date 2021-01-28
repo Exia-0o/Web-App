@@ -4,7 +4,7 @@ class FirstComponent extends Component {
     render() {
       return (
         <div className="FirstComponent">
-          First Component
+            First Component
         </div>
       )
     }

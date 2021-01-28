@@ -4,7 +4,7 @@ class SecondComponent extends Component {
     render() {
       return (
         <div className="SecondComponent">
-          Second Component
+            Second Component
         </div>
       )
     }
