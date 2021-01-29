@@ -75,11 +75,11 @@ class CounterButton extends Component {
         //const style = {fontSize : "50px", padding : "15px 30px"}; 
 
         return (
-        <div className="Counter">
-            <button onClick={() => this.props.incrementMethod(this.props.by)}>+{this.props.by}</button>
-            <button onClick={() => this.props.incrementMethod(this.props.by)}>-{this.props.by}</button>
-            {/*<span className="Count">{this.state.counter}</span>*/}
-        </div>
+            <div className="Counter">
+                <button onClick={() => this.props.incrementMethod(this.props.by)}>+{this.props.by}</button>
+                <button onClick={() => this.props.decrementMethod(this.props.by)}>-{this.props.by}</button>
+                {/*<span className="Count">{this.state.counter}</span>*/}
+            </div>
         );
     }
     // // Update state, counter++
