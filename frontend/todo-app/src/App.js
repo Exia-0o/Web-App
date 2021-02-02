@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 
-import FirstComponent from './components/learning-examples/FirstComponent';
-import SecondComponent from './components/learning-examples/SecondComponent';
-import ThirdComponent from './components/learning-examples/ThirdComponent';
-import Counter from './components/counter/Counter';
+//import FirstComponent from './components/learning-examples/FirstComponent';
+//import SecondComponent from './components/learning-examples/SecondComponent';
+//import ThirdComponent from './components/learning-examples/ThirdComponent';
+//import Counter from './components/counter/Counter';
 import TodoApp from './components/todo/TodoApp';
 //import logo from './logo.svg';
 import './App.css';
+import './bootstrap.css'
+
  
 class App extends Component {
 	render() {
@@ -19,6 +21,7 @@ class App extends Component {
 	}
 }
 
+/*
 class LearningComponents extends Component {
 	render() {
 		return (
@@ -30,6 +33,6 @@ class LearningComponents extends Component {
 			</div>
 		);
 	}
-}
+}*/
 
 export default App;
